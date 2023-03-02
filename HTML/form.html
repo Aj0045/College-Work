@@ -12,9 +12,14 @@
 
         }
 
-        div {
-            display: block;
-            justify-content: center;
+        .between {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            align-items: center;
+            background-color: rgb(60, 68, 123);
+            margin-left: 400px;
+            margin-top: 50px;
         }
     </style>
 
@@ -24,13 +29,15 @@
     <div class="between">
         <div class="text-align">
             <h1>Registration Form</h1>
-        </div>
+        </div><br>
         <div class="contain" style="width: 200px;">
+
             <label> First Name :</label><br>
             <input type="text" placeholder="Enter Your First name"> <br>
 
             <label> Midle Name : </label><br>
             <input type="text" placeholder="Enter Your Midle name"><br>
+
 
             <label> Last name : </label><br>
             <input type="text" placeholder="Enter Your Last name"><br>
@@ -43,15 +50,15 @@
 
             <label for="1">
                 <input type="radio" value="Male" name="gender" id="1"> male
-            </label>
+            </label><br>
 
             <label for="2">
                 <input type="radio" value="Female" name="gender" id="2">Female
             </label>
 
-            <label for="3">
+            <!-- <label for="3">
                 <input type="radio" value="Other" name="gender" id="3"> Other
-            </label>
+            </label> -->
             <br>
             <br>
 
@@ -59,26 +66,23 @@
 
             <label for="raj">
                 <input type="checkbox" value="rajkot" name="city" id="raj"> Rajkot
-            </label>
+            </label><br>
 
             <label for="sur">
-                <input type="checkbox" value="s nagar" name="city" id="sur">Surendranagar
-            </label>
+                <input type="checkbox" value="surat" name="city" id="sur"> Surat
+            </label><br>
 
             <label for="jam">
-                <input type="checkbox" value="jamnagar" name="city" id="jam">Jamnagar
+                <input type="checkbox" value="jamnagar" name="city" id="jam"> Jamnagar
             </label>
             <br>
-            <br><br>
+            <br>
 
-            <input style="background-color: aqua;" type="submit" value="submit">
+            <input type="submit" value="SUBMIT">
+            <input type="button" value="CLEAR">
+            <br><br>
         </div>
     </div>
-
-
-
-
-
 </body>
 
 </html>
