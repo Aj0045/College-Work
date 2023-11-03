@@ -1,0 +1,22 @@
+div {
+    /* background-image:url("mi.jpg"); */
+    background-repeat: no-repeat;
+    display: flex;
+    color: black;
+
+}
+
+body {
+    background-image: url("mi.jpg");
+
+}
+
+.border {
+    border-style: outset;
+    background-color: white;
+    border-width: 5px 5px;
+}
+
+.para {
+    width: 100%;
+}
